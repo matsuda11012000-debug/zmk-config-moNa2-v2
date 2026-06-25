@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - F13
+  - LEFT
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - F14
-  - F15
+  - RIGHT
   - N
   - M
   - ','
