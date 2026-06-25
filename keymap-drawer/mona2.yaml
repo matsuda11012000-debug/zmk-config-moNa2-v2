@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: '6'}
+  - {t: I, h: '3'}
   - O
   - P
   - A
@@ -137,7 +137,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
-  - '8'
+  - {t: '8', type: held}
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -151,7 +151,7 @@ layers:
   - '5'
   - '6'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Z
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - Gui+Sft+RIGHT ARROW
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BACKSPACE
   - Alt+ENTER
@@ -266,7 +266,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
