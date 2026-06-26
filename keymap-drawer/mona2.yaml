@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - F14
+  - Ctl++
   - RIGHT
   - N
   - M
@@ -223,9 +223,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - Alt+HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
