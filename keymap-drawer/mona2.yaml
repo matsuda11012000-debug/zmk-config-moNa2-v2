@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - I
+  - {t: I, h: '3'}
   - O
   - P
   - A
@@ -19,7 +19,7 @@ layers:
   - LEFT
   - H
   - J
-  - {t: K, h: '3'}
+  - K
   - L
   - '-'
   - {t: Z, h: LEFT SHIFT}
@@ -137,7 +137,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
-  - '8'
+  - {t: '8', type: held}
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -148,7 +148,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
-  - {t: '5', type: held}
+  - '5'
   - '6'
   - {t: ▽, type: trans}
   - Ctl+Z
@@ -223,19 +223,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - Alt+HOME
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
   - F5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
