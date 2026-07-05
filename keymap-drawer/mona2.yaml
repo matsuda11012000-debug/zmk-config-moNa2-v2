@@ -131,16 +131,16 @@ layers:
   - '|'
   '3':
   - {t: ▽, type: trans}
-  - Ctl+Sft+TAB
+  - Sft+Gui+LEFT
   - UP ARROW
-  - Ctl+TAB
+  - Gui+Ctl+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
   - {t: '8', type: held}
   - '9'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT
@@ -152,8 +152,8 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - Ctl+Z
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
+  - Sft+Gui+LEFT
+  - Gui+Sft+S
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
