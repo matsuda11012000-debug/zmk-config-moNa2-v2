@@ -9,6 +9,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #define MOUSE 5
 #define SCROLL 6
+#define APPLE 7
 
 &mt {
     flavor = "balanced";
@@ -79,7 +80,7 @@
 &kp Q             &kp W         &kp E     &kp R        &kp T                                                            &kp Y        &kp U  &lt 3 I    &kp O    &kp P
 &kp A             &kp S         &kp D     &kp F        &kp G                                &kp LEFT                    &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C     &kp V        &kp B      &kp LC(KP_PLUS)           &kp RIGHT                   &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&mt LCTRL ESCAPE  &kp LEFT_WIN  &kp LALT  &lt 4 LC(SPACE)  &lt 3 TAB  &lt_to_layer_0 2 SPACE    &lt_to_layer_0 3 BACKSPACE  &lt 1 ENTER                             &kp DEL
+&mt LCTRL ESCAPE  &kp LEFT_WIN  &kp LALT  &lt 4 GRAVE  &lt 3 TAB  &lt_to_layer_0 2 SPACE    &lt_to_layer_0 3 BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -87,7 +88,7 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                    &kp NUMBER_6  &kp LC(LS(K))  &kp F8  &kp F9  &kp LA(LC(DELETE))
+&kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                    &kp NUMBER_6  &kp F7  &kp F8  &kp F9  &kp LA(LC(DELETE))
 &trans        &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &trans  &trans        &kp F4  &kp F5  &kp F6  &kp LS(LC(ESCAPE))
 &trans        &kp UNDERSCORE  &trans            &trans             &trans        &trans    &trans  &trans        &kp F1  &kp F2  &kp F3  &kp LC(LA(INSERT))
 &trans        &trans          &trans            &trans             &trans        &trans    &trans  &trans                                &trans
@@ -120,10 +121,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans  &trans  &trans  &trans            &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
+&tog APPLE  &trans  &trans  &trans  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans      &trans  &trans  &trans  &trans            &trans       &trans        &trans        &trans        &trans        &trans
+&trans      &trans  &trans  &trans  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans      &trans  &trans  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -146,6 +147,17 @@
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+            >;
+
+            sensor-bindings = <&scroll_up_down>;
+        };
+
+        APPLE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &lt 4 LC(SPACE)  &trans  &trans  &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
