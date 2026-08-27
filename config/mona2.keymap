@@ -98,10 +98,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND          &kp DOLLAR  &kp PERCENT                           &kp CARET         &kp AMPERSAND      &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET
-&kp SLASH        &kp TILDE          &kp DOUBLE_QUOTES  &kp SQT     &kp SEMI                     &trans   &kp EXCL          &kp AT             &kp RIGHT_BRACKET      &kp BACKSLASH         &kp EQUAL
-&kp F1           &kp F2             &kp F3             &kp F4      &kp APOSTROPHE  &kp EQUAL    &kp F12  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)     &kp LS(INTERNATIONAL_1)
-&trans           &trans             &trans             &trans      &trans          &trans       &trans   &trans                                                                            &kp PIPE
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND          &kp DOLLAR  &kp PERCENT                           &kp CARET      &kp AMPERSAND      &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET
+&kp SLASH        &kp TILDE          &kp DOUBLE_QUOTES  &kp SQT     &kp SEMI                     &trans   &kp EXCL       &kp AT             &kp RIGHT_BRACKET      &kp BACKSLASH         &kp EQUAL
+&kp F1           &kp F2             &kp F3             &kp F4      &kp APOSTROPHE  &kp EQUAL    &kp F12  &kp LS(SLASH)  &kp RIGHT_BRACKET  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)     &kp LS(INTERNATIONAL_1)
+&trans           &trans             &trans             &trans      &trans          &trans       &trans   &trans                                                                         &kp PIPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN K_VOLUME_UP>;
